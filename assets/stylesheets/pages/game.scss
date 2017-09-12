@@ -1,0 +1,36 @@
+.game {
+
+  .head-banner {
+    height: 280px;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .page-wrapper {
+    display: flex;
+
+    nav {
+      flex: 1;
+    }
+
+    .content {
+      flex: 2;
+      background: white;
+      padding: 30px;
+
+      .top {
+        display: flex;
+        box-shadow: 0 0 4px rgba(117, 177, 177, 0.5);
+        margin-bottom: 20px;
+        
+        img {
+          width: 190px;
+        }
+
+        p {
+          padding: 20px;
+        }
+      }
+    }
+  }
+}

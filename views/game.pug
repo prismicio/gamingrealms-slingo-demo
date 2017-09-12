@@ -1,0 +1,25 @@
+extends ./layout.pug
+
+block variables
+  - var nav_class = 'dark'
+  - var activeDoc = page
+
+block body
+
+  .game
+    - var backgroundStyle = "background-image: url('" + page.data.slingo_banner.url + "')"
+    div.head-banner.grid-container(style=backgroundStyle)
+
+
+    -// Content Section
+    div.grid-container.page-wrapper
+      include ./layout/sidemenu.pug
+
+      div.content
+        != RichText.asHtml(page.data.game_name, ctx.linkResolver)
+        
+        .top
+          img(src=page.data.slingo_thumbnail.url)
+          != RichText.asHtml(page.data.introduction, ctx.linkResolver)
+
+        != RichText.asHtml(page.data.full_description, ctx.linkResolver)

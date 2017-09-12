@@ -1,0 +1,9 @@
+
+nav.side-menu
+  ul
+    if menu
+      each linkItem in sidemenu.data.menuLinks
+        li
+          img(src=linkItem.thumbnail.url)
+          a(href=Link.url(linkItem.link, ctx.linkResolver))
+            != linkItem.label

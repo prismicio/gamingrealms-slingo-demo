@@ -1,0 +1,35 @@
+{
+  "Main" : {
+    "menuLinks" : {
+      "type" : "Group",
+      "fieldset" : "Menu Links",
+      "config" : {
+        "fields" : {
+          "thumbnail" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : {
+                "width" : null,
+                "height" : null
+              },
+              "thumbnails" : [ ],
+              "label" : "thumbnail"
+            }
+          },
+          "label" : {
+            "type" : "Text",
+            "config" : {
+              "placeholder" : "Link label"
+            }
+          },
+          "link" : {
+            "type" : "Link",
+            "config" : {
+              "placeholder" : "Link"
+            }
+          }
+        }
+      }
+    }
+  }
+}

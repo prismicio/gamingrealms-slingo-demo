@@ -1,0 +1,46 @@
+{
+  "Main" : {
+    "logo" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : null,
+          "height" : null
+        },
+        "thumbnails" : [ ],
+        "label" : "logo slingo"
+      }
+    },
+    "logo_pocket_fruity" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : null,
+          "height" : null
+        },
+        "thumbnails" : [ ],
+        "label" : "logo pocket fruity"
+      }
+    },
+    "menuLinks" : {
+      "type" : "Group",
+      "fieldset" : "Menu Links",
+      "config" : {
+        "fields" : {
+          "label" : {
+            "type" : "Text",
+            "config" : {
+              "placeholder" : "Link label"
+            }
+          },
+          "link" : {
+            "type" : "Link",
+            "config" : {
+              "placeholder" : "Link"
+            }
+          }
+        }
+      }
+    }
+  }
+}

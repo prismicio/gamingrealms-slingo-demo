@@ -1,0 +1,28 @@
+//layout
+@import 'layout/header';
+@import 'layout/homepage-banner';
+@import 'layout/main';
+@import 'layout/footer';
+@import 'layout/wio-link';
+@import 'layout/sidemenu';
+
+//components
+@import 'components/language-selector';
+@import 'components/profile-selector';
+
+//slices
+@import 'slices/quote-banner';
+@import 'slices/banner';
+@import 'slices/featured-section';
+@import 'slices/gallery';
+@import 'slices/highlight-section';
+@import 'slices/text-section';
+@import 'slices/video';
+@import 'slices/image-gallery';
+
+//components
+@import 'pages/game';
+
+
+//messy code, need to be cleaned
+@import 'toclean';

@@ -1,0 +1,13 @@
+header(class=[nav_class || '', "site-header", "grid-container"].join(' '))
+  - var homeUrl = `/`;
+  a(href=homeUrl)
+    .logo
+      img(src=menu.data.logo.url)
+  
+  nav
+    ul
+      if menu
+        each linkItem in menu.data.menuLinks
+          li
+            a(href=Link.url(linkItem.link, ctx.linkResolver))
+              != linkItem.label

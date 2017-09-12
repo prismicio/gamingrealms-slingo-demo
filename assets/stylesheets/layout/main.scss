@@ -1,0 +1,63 @@
+body {
+  background: url("/images/component-background-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Lato";
+}
+
+.grid-container {
+  max-width: 980px;
+  margin: auto;
+}
+.content-section {
+  margin-bottom: 3.75rem;
+}
+
+h1 {
+  font-family: "Lato";
+  font-weight: 900;
+  font-style: normal;
+  color: #4d739e;
+  font-size: 29px;
+  text-transform: uppercase;
+  margin: 0 0 15px 0;
+}
+h2 {
+  font-family: "Lato";
+  font-weight: 900;
+  font-style: normal;
+  color: #5a194b;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.content ul {
+  list-style-type: disc;
+  margin-left: 2.5em;
+}
+
+p, .content li {
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: normal;
+  color: #565656;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}

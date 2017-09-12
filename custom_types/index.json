@@ -1,0 +1,16 @@
+[{
+  "id": "game_info_page",
+  "name": "Game info page",
+  "repeatable": true,
+  "value": "game-info-page.json"
+}, {
+  "id": "menu",
+  "name": "Menu",
+  "repeatable": false,
+  "value": "menu.json"
+  }, {
+  "id": "side_menu",
+  "name": "side menu",
+  "repeatable": false,
+  "value": "side_menu.json"
+}]

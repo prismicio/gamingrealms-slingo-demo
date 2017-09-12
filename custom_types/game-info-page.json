@@ -1,0 +1,99 @@
+{
+  "Slingo" : {
+    "slingo_banner" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 2048,
+          "height" : 540
+        },
+        "thumbnails" : [ {
+          "name" : "mobile",
+          "width" : 500,
+          "height" : 130
+        }, {
+          "name" : "desktop",
+          "width" : 1024,
+          "height" : 270
+        } ],
+        "label" : "Slingo Banner"
+      }
+    },
+    "slingo_thumbnail" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : null,
+          "height" : null
+        },
+        "thumbnails" : [ ],
+        "label" : "slingo_thumbnail"
+      }
+    }
+  },
+  "Pocket Fruit" : {
+    "pocket_fruit_banner" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 2048,
+          "height" : 540
+        },
+        "thumbnails" : [ {
+          "name" : "mobile",
+          "width" : 500,
+          "height" : 130
+        }, {
+          "name" : "desktop",
+          "width" : 1024,
+          "height" : 270
+        } ],
+        "label" : "Pocket Fruit Banner"
+      }
+    },
+    "pocket_fruity_thumbnail" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : null,
+          "height" : null
+        },
+        "thumbnails" : [ ],
+        "label" : "pocket_fruity_thumbnail"
+      }
+    }
+  },
+  "Common" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "label" : "SEO friendly ID",
+        "placeholder" : "my-awesome-game"
+      }
+    },
+    "game_name" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1",
+        "label" : "Game name",
+        "placeholder" : "Colossal bar X"
+      }
+    },
+    "introduction" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph",
+        "label" : "Introduction",
+        "placeholder" : "Short introduction"
+      }
+    },
+    "full_description" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, heading2, list-item",
+        "label" : "Full description",
+        "placeholder" : "A long full description"
+      }
+    }
+  }
+}

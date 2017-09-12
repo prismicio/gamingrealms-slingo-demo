@@ -1,0 +1,25 @@
+.side-menu {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  color: #4c4c4c;
+  max-width: 300px;
+
+  li {
+    width: calc(100% - 50px);
+    padding-left: 20px;
+    line-height: 52px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+
+    a {
+      font-family: "Lato";
+      font-weight: 300;
+      font-style: normal;
+      color: #fffde4;
+      font-size: 21px;
+      margin-left: 10px;
+    }
+  }
+}
